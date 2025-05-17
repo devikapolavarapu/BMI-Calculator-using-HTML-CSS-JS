@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+.bmi-scale {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px dashed #bdc3c7;
+}
+
+.bmi-scale h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.bmi-scale ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.bmi-scale li {
+    margin-bottom: 5px;
+    color: #7f8c8d;
+}
+/* Category Colors */
+.underweight {
+    color: #3498db; /* Blue for underweight */
+}
+
+.normal {
+    color: #2ecc71; /* Green for normal */
+}
+
+.overweight {
+    color: #f39c12; /* Orange for overweight */
+}
+
+.obese {
+    color: #e74c3c; /* Red for obese */
+}
+
+/* Result Styling */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Category List Styling */
+.bmi-scale li {
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 3px;
+}
+
+.bmi-scale li:nth-child(1) { background-color: #3498db20; } /* Underweight */
+.bmi-scale li:nth-child(2) { background-color: #2ecc7120; } /* Normal */
+.bmi-scale li:nth-child(3) { background-color: #f39c1220; } /* Overweight */
+.bmi-scale li:nth-child(4) { background-color: #e74c3c20; } /* Obese */
+/* ===== BMI Category Colors ===== */
+/* Text Colors */
+.underweight {
+    color: #3498db;  /* Blue */
+}
+.normal {
+    color: #2ecc71;  /* Green */
+}
+.overweight {
+    color: #f39c12;  /* Orange */
+}
+.obese {
+    color: #e74c3c;  /* Red */
+}
+
+/* Background Highlights for Categories List */
+.bmi-scale li:nth-child(1) {  /* Underweight */
+    background-color: #ebf5fb;
+    border-left: 4px solid #3498db;
+}
+.bmi-scale li:nth-child(2) {  /* Normal */
+    background-color: #eafaf1;
+    border-left: 4px solid #2ecc71;
+}
+.bmi-scale li:nth-child(3) {  /* Overweight */
+    background-color: #fef5e7;
+    border-left: 4px solid #f39c12;
+}
+.bmi-scale li:nth-child(4) {  /* Obese */
+    background-color: #fdedec;
+    border-left: 4px solid #e74c3c;
+}
+
+/* Result Box Styling */
+#result {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+/* Background Images for BMI Scale */
+body {
+    position: relative;
+}
